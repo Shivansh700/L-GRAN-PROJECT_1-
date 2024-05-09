@@ -1,0 +1,1376 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Madimi+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-decoration: none;
+
+}
+a{
+    color: white;
+}
+body{
+    background-color: black;
+}
+.main-image{
+    align-items: center;
+    color:white;
+}
+@media  screen and (max-width: 1024px){
+    .main-image{
+        align-items:center;
+        display: flex;
+    }
+}
+@media  screen and (max-width: 520px){
+    .main-image{
+        align-items:center;
+        display: flex;
+        width:100%;
+    }
+}
+@media  screen and (max-width: 520px){
+    .img0{
+        width:80px;
+    }
+}
+
+.main{
+ 
+    background-color: rgba(98, 96, 96, 0.769);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:70px;
+    color:white;
+    height:100px;
+    
+}
+@media  screen and (max-width: 1024px){
+    .main{
+ 
+        background-color: rgba(98, 96, 96, 0.769);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap:60px;
+        color:white;
+        height:100px;
+        
+    }
+}
+@media  screen and (max-width: 520px){
+    .main{
+ 
+        background-color: rgba(98, 96, 96, 0.769);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap:35px;
+        color:white;
+        height:55px;
+    }
+}
+.nav{
+    
+    display: flex;
+    gap: 90px;
+    color:white;
+    font-size:20px;
+}
+@media  screen and (max-width: 1024px) {
+    .nav{
+        display:flex;
+        gap:70px;
+        font-size:15px;   
+    }
+}
+@media  screen and (max-width: 520px) {
+    .nav{
+        display:flex;
+        gap:20px;
+        font-size:9px;   
+    }
+}
+
+.main2{
+    position: absolute;
+    left: 950px;
+    bottom: 150px;
+    font-size:15px;
+    color:yellow;
+}
+@media  screen and (max-width: 1024px){
+    .main2{
+        position: absolute;
+        left: 42rem;
+        top:21.8rem;
+        font-size:16px;
+        color:yellow;
+    }
+}
+@media  screen and (max-width: 520px){
+    .main2{
+        position: absolute;
+        left: 21.25rem;
+        top:11.5rem;
+        font-size:6px;
+        color:yellow;
+    }
+}
+.main3{
+    display: flex;
+    position:absolute;
+    bottom:90px;
+    left: 200px;
+    color: white;
+    font-size:20px;
+
+}
+@media  screen and (max-width: 1024px){
+    .main3{
+        display:flex;
+        position:absolute;
+        left: 5rem;
+        font-size:17px;
+        top:14rem;
+    }
+}
+@media  screen and (max-width: 520px){
+    .main3{
+        display:flex;
+        position:absolute;
+        left: 7rem;
+        font-size:6.5px;
+        top:8rem;
+    }
+}
+#img1{
+    position: absolute;
+    top:575px;
+    left:845px;
+}
+@media  screen and (max-width: 1024px){
+    #img1{
+        position: absolute;
+        top:30rem;
+        left:44rem;
+        height:100px;
+        width:190px;
+    }
+}
+@media  screen and (max-width: 520px){
+    #img1{
+        position: absolute;
+        top:14rem;
+        left:21rem;
+        width:5.4rem;
+        height:2.5rem;
+    }
+}
+.main5{
+    position: absolute;
+    top:885px;
+    left:582px;
+    color:white;
+    font-size:20px;
+}
+@media  screen and (max-width: 1024px){
+    .main5{
+        position: absolute;
+        top:41rem;
+        left:26rem;
+        color:white;
+        font-size:17px;
+    }
+}
+@media  screen and (max-width: 520px){
+    .main5{
+        position: absolute;
+        top:20.1rem;
+        left:14rem;
+        color:white;
+        font-size:7px;
+    }
+}
+.main6{
+    position: absolute;
+    top:932px;
+    left:582px;
+    font-size:20px;
+    color:yellow;
+}
+@media  screen and (max-width: 1024px){
+    .main6{
+        position: absolute;
+        top:43.5rem;
+        left:26rem;
+        color:yellow;
+        font-size:17px;
+    }
+}
+@media  screen and (max-width: 520px){
+    .main6{
+        position: absolute;
+        top:21.1rem;
+        left:14rem;
+        color:yellow;
+        font-size:7px;
+    }
+}
+#img2{
+    height:45rem;
+}
+@media  screen and (max-width: 1024px){
+    #img2{
+        height:36rem;
+    }
+}
+@media  screen and (max-width: 520px){
+    #img2{
+        height:100%;
+        width:100%;
+    }
+}
+.shape{
+    position:absolute;
+    top:81.2rem;
+    left:3.7rem;
+}
+@media  screen and (max-width: 1024px){
+    .shape{
+        position:absolute;
+        top:63rem;
+        left:2rem;
+    }
+}
+@media  screen and (max-width: 520px){
+    .shape{
+        position:absolute;
+        top:27.6rem;
+        left:2.4rem;
+        width:1.2rem;
+    }
+}
+.shape1{
+    position:absolute;
+    top:81.2rem;
+    left:36rem;
+}
+@media  screen and (max-width: 1024px){
+    .shape1{
+        position:absolute;
+        top:63rem;
+        left:28rem;
+    }
+}
+@media  screen and (max-width: 520px){
+    .shape1{
+        position:absolute;
+        top:27.6rem;
+        left:11.8rem;
+        width:1.2rem;
+    }
+}
+.main7{
+    position:absolute;
+    top:80rem;
+    left:10rem;
+    color:white;
+    font-size:25px;
+}
+@media  screen and (max-width: 1024px){
+    .main7{
+        position:absolute;
+        top:62rem;
+        left:6rem;
+        color:white;
+        font-size:23px;
+    }
+}
+@media  screen and (max-width: 520px){
+    .main7{
+        position:absolute;
+        top:27.15rem;
+        left:3.6rem;
+        color:white;
+        font-size:8px;
+    }
+}
+.main8{
+    position:absolute;
+    top:90rem;
+    left:-1rem;
+    color:white;
+    font-size:16px;
+    font-family:"Archivo", sans-serif;
+}
+@media  screen and (max-width: 1024px){
+    .main8{
+        position:absolute;
+        display:flex;
+        top:68rem;
+        left:-2.5rem;
+        color:white;
+        font-size:13.5px;
+        font-family:"Archivo", sans-serif;
+    }
+}
+@media  screen and (max-width: 520px){
+    .main8{
+        position:absolute;
+        display:flex;
+        top:31rem;
+        left:-0.4rem;
+        color:white;
+        font-size:5.8px;
+        font-family:"Archivo", sans-serif;
+    }
+}
+.main9{
+    position:absolute;
+    top:110rem;
+    left:10rem;
+    font-size:21px;
+    color:white;
+}
+@media  screen and (max-width:1024px){
+    .main9{
+        position:absolute;
+        top:84rem;
+        left:6rem;
+        font-size:21px;
+        color:white;
+    }
+}
+@media  screen and (max-width:520px){
+    .main9{
+        position:absolute;
+        top:39.2rem;
+        left:4.8rem;
+        font-size:6px;
+        color:white;
+    }
+}
+.main10{
+    position:absolute;
+    top:110rem;
+    left:26rem;
+    font-size:21px;
+    color:yellow;
+}
+@media  screen and (max-width:1024px){
+    .main10{
+        position:absolute;
+        top:84rem;
+        left:22rem;
+        font-size:21px;
+        color:yellow;
+    }
+}
+@media  screen and (max-width:520px){
+    .main10{
+        position:absolute;
+        top:39.2rem;
+        left:9.2rem;
+        font-size:6px;
+        color:yellow;
+    }
+}
+@media  screen and (max-width:1024px){
+    .main10A{
+        height:1100px;
+    }
+}
+@media  screen and (max-width:520px){
+    .main10A{
+        height:320px;
+        width:100%;
+    }
+}
+.main11{
+    position:absolute;
+    top:1875px;
+    left:20px;
+    height:950px;
+}
+@media  screen and (max-width:1024px){
+    .main11{
+        position:absolute;
+        top:89.7rem;
+        left:20px;
+    }
+}
+@media  screen and (max-width:520px){
+    .main11{
+        position:absolute;
+        top:42.97rem;
+        left:3rem;
+        width:32%;
+        height:42%;
+    }
+}
+.shape2{
+    position:absolute;
+    top:2250px;
+    left:580px;
+}
+@media  screen and (max-width: 1024px){
+    .shape2{
+        position:absolute;
+        top:112rem;
+        left:26rem;
+    }
+}
+@media  screen and (max-width: 520px){
+    .shape2{
+        position:absolute;
+        top:48.5rem;
+        left:15rem;
+        width:1.2rem;
+    }
+}
+.shape3{
+    position:absolute;
+    top:2250px;
+    left:1100px;
+}
+@media  screen and (max-width: 1024px){
+    .shape3{
+        position:absolute;
+        top:112rem;
+        left:55rem;
+    }
+}
+@media  screen and (max-width: 520px){
+    .shape3{
+        position:absolute;
+        top:48.5rem;
+        left:25rem;
+        width:1.2rem;
+    }
+}
+.main12{
+    position:absolute;
+    top:2230px;
+    left:690px;
+    color:white;
+    font-size:21px;
+}
+@media  screen and (max-width: 1024px){
+    .main12{
+        position:absolute;
+        top:111rem;
+        left:32rem;
+        color:white;
+        font-size:19px;
+    }
+}
+@media  screen and (max-width: 520px){
+    .main12{
+        position:absolute;
+        top:48.2rem;
+        left:16.65rem;
+        color:white;
+        font-size:7px;
+    }
+}
+.main13{
+    position:absolute;
+    top:2350px;
+    left:405px;
+    color:white;
+    font-size:18px;
+}
+@media  screen and (max-width: 1024px){
+    .main13{
+        position:absolute;
+        top:118rem;
+        left:16rem;
+        color:white;
+        font-size:16px;
+    }
+}
+@media  screen and (max-width: 520px){
+    .main13{
+        position:absolute;
+        top:51rem;
+        left:10.5rem;
+        color:white;
+        font-size:6.2px;
+    }
+}
+.main14{
+    position:absolute;
+    top:2550px;
+    left:100px;
+    color:white;
+    font-size: 30px;
+}
+@media  screen and (max-width: 1024px){
+    .main14{
+        position:absolute;
+        top:129rem;
+        left:12rem;
+        color:white;
+        font-size: 20px;
+    }
+}
+@media  screen and (max-width: 520px){
+    .main14{
+        display:flex;
+        position:absolute;
+        top:55rem;
+        left:11rem;
+        color:white;
+        font-size: 6.6px;
+    }
+}
+.main15{
+    position:absolute;
+    top:2750px;
+    left:418px;
+    color:yellow;
+    font-size: 42px;
+}
+@media  screen and (max-width: 1024px){
+    .main15{
+        position:absolute;
+        top:137rem;
+        left:22rem;
+        color:yellow;
+        font-size: 30px;
+    }
+}
+@media  screen and (max-width: 520px){
+    .main15{
+        position:absolute;
+        top:57.7rem;
+        left:15rem;
+        color:yellow;
+        font-size:9.5px;
+    }
+}
+@media  screen and (max-width:1024px){
+    .main15A{
+        height:980px;
+    }
+}
+@media  screen and (max-width:520px){
+    .main15A{
+        height:460px;
+    }
+}
+.main16{
+    position:absolute;
+    top:3500px;
+    left:50px;
+    width:1150px
+}
+@media  screen and (max-width: 1024px){
+    .main16{
+        position:absolute;
+        top:170rem;
+        left:2rem;
+        width:950px;
+    }
+}
+@media  screen and (max-width: 520px){
+    .main16{
+        position:absolute;
+        top:69rem;
+        left:0.8rem;
+        width:95%;
+    }
+}
+.shape4{
+    position:absolute;
+    top:3335px;
+    left:390px;
+}
+@media  screen and (max-width: 1024px){
+    .shape4{
+        position:absolute;
+        top:163rem;
+        left:21rem;
+    }
+}
+@media  screen and (max-width: 520px){
+    .shape4{
+        position:absolute;
+        top:65.8rem;
+        left:10rem;
+        width:1.5rem;
+    }
+}
+.shape5{
+    position:absolute;
+    top:3335px;
+    left:790px;
+}
+@media  screen and (max-width: 1024px){
+    .shape5{
+        position:absolute;
+        top:163rem;
+        left:42rem;
+    }
+}
+@media  screen and (max-width: 520px){
+    .shape5{
+        position:absolute;
+        top:65.8rem;
+        left:19rem;
+        width:1.5rem;
+    }
+}
+.main17{
+    position:absolute;
+    top:3318px;
+    left:540px;
+    color:white;
+    font-size:24px;
+}
+@media  screen and (max-width: 1024px){
+    .main17{
+        position:absolute;
+        top:162rem;
+        left:28rem;
+        color:white;
+        font-size:22px;
+    }
+}
+@media  screen and (max-width: 520px){
+    .main17{
+        position:absolute;
+        top:65.2rem;
+        left:13rem;
+        color:white;
+        font-size:9px;
+    }
+}
+@media  screen and (max-width:1024px){
+    .main17A{
+        width:1500px;
+    }
+}
+@media  screen and (max-width:520px){
+    .main17A{
+        height:25rem;
+    }
+}
+.shape6{
+    position:absolute;
+    top:4530px;
+    left:375px;
+}
+@media  screen and (max-width: 1024px){
+    .shape6{
+        position:absolute;
+        top:226rem;
+        left:17rem;
+    }
+}
+@media  screen and (max-width: 520px){
+    .shape6{
+        position:absolute;
+        top:93.85rem;
+        left:7.8rem;
+        width:1.6rem;
+    }
+}
+.shape7{
+    position:absolute;
+    top:4530px;
+    left:780px;
+}
+@media  screen and (max-width: 1024px){
+    .shape7{
+        position:absolute;
+        top:226rem;
+        left:42rem;
+    }
+}
+@media  screen and (max-width: 520px){
+    .shape7{
+        position:absolute;
+        top:93.85rem;
+        left:18.5rem;
+        width:1.6rem;
+    }
+}
+.main18{
+    position:absolute;
+    top:4510px;
+    left:500px;
+    color:white;
+    font-size:24px;
+}
+@media  screen and (max-width:1024px){
+    .main18{
+        position:absolute;
+        top:225rem;
+        left:24.5rem;
+        color:white;
+        font-size:24px;
+    }
+}
+@media  screen and (max-width:520px){
+    .main18{
+        position:absolute;
+        top:93.2rem;
+        left:11rem;
+        color:white;
+        font-size:11px;
+    }
+}
+.main19{
+    position:absolute;
+    top:4590px;
+    left:340px;
+    color:white;
+    font-size:24px;
+
+}
+@media  screen and (max-width: 1024px){
+    .main19{
+        position:absolute;
+        top:230rem;
+        left:16rem;
+        color:white;
+        font-size:20px;
+    }
+}
+@media  screen and (max-width: 520px){
+    .main19{
+        position:absolute;
+        top:95.4rem;
+        left:7rem;
+        color:white;
+        font-size:10px;
+    }
+}
+.main20{
+    position:absolute;
+    top:4690px;
+    left:200px;
+    color:white;
+    font-size:24px;
+}
+@media  screen and (max-width: 1024px){
+    .main20{
+        position:absolute;
+        top:236rem;
+        left:6rem;
+        color:white;
+        font-size:24px;
+    }
+}
+@media  screen and (max-width: 520px){
+    .main20{
+        position:absolute;
+        top:98.5rem;
+        left:1rem;
+        color:white;
+        font-size:14px;
+        
+    }
+}
+.main21{
+    position:absolute;
+    top:4690px;
+    left:740px;
+    font-size:24px;
+    color:white;
+}
+@media  screen and (max-width: 1024px){
+    .main21{
+        position:absolute;
+        top:236rem;
+        left:36rem;
+        color:white;
+        font-size:24px;
+    }
+}
+@media  screen and (max-width: 520px){
+    .main21{
+        position:absolute;
+        top:98.5rem;
+        left:16.6rem;
+        color:white;
+        font-size:14px;
+    }
+}
+input::placeholder{
+    color: white;
+    
+}
+@media  screen and (max-width:520px){
+    input::placeholder{
+        color: white;
+        font-size: 12px;
+    }
+
+}
+.main22{
+    position:absolute;
+    top:4870px;
+    left:200px;
+    color:white;
+    font-size:24px;
+}
+@media  screen and (max-width: 1024px){
+    .main22{
+        position:absolute;
+        top:246rem;
+        left:6rem;
+        color:white;
+        font-size:24px;
+    }
+}
+@media  screen and (max-width: 520px){
+    .main22{
+        position:absolute;
+        top:103rem;
+        left:1rem;
+        color:white;
+        font-size:14px;
+    }
+}
+input{
+    border:3px solid rgb(246, 198, 23);
+    height:25px;
+    width:300px;
+    background-color: transparent;
+    border-radius: 4px;
+    color:white;
+}
+@media  screen and (max-width:520px){
+    input{
+        border:1.5px solid rgb(246, 198, 23);
+        height:20px;
+        width:200px;
+        background-color: transparent;
+        border-radius: 4px;
+        color:white;
+    }
+}
+select{
+    background-color: transparent;
+    border:3px solid rgb(246, 198, 23);
+    width:300px;
+    height:30px;
+    border-radius:4px;
+} 
+@media  screen and (max-width:520px){
+    select{
+        background-color: transparent;
+        border:1.5px solid rgb(246, 198, 23);
+        width:202px;
+        height:22px;
+        border-radius:4px;
+    } 
+}
+.opt{
+    color:white;
+}
+@media  screen and (max-width:520px){
+    .opt{
+        color:white;
+        font-size: 11px;
+    }
+}
+.main23{
+    position:absolute;
+    top:4870px;
+    left:740px;
+    color:white;
+    font-size:24px;
+} 
+@media  screen and (max-width: 1024px){
+    .main23{
+        position:absolute;
+        top:246rem;
+        left:36rem;
+        color:white;
+        font-size:24px;
+    }
+}
+@media  screen and (max-width: 520px){
+    .main23{
+        position:absolute;
+        top:103rem;
+        left:16.6rem;
+        color:white;
+        font-size:15px;
+    }
+}
+.time{
+    color: white;
+    width:300px;
+}
+@media  screen and (max-width: 520px){
+    .time{
+        color: white;
+        width:200px;
+    }
+}
+.main24{
+    position:absolute;
+    top:5070px;
+    left:200px;
+    color:white;
+    font-size:24px;
+}
+@media  screen and (max-width: 1024px){
+    .main24{
+        position:absolute;
+        top:256rem;
+        left:6rem;
+        color:white;
+        font-size:24px;
+    }
+}
+@media  screen and (max-width: 520px){
+    .main24{
+        position:absolute;
+        top:107.5rem;
+        left:1rem;
+        color:white;
+        font-size:13.5px;
+    }
+}
+.date{
+    color:white;
+    width:300px;
+}
+@media  screen and (max-width: 520px){
+    .date{
+        color:white;
+        width:200px;
+    }
+}
+.main25{
+    position:absolute;
+    top:5070px;
+    left:740px;
+    color:white;
+    font-size:24px;
+}
+@media  screen and (max-width: 1024px){
+    .main25{
+        position:absolute;
+        top:256rem;
+        left:36rem;
+        color:white;
+        font-size:24px;
+    }
+}
+@media  screen and (max-width: 520px){
+    .main25{
+        position:absolute;
+        top:107.5rem;
+        left:16.6rem;
+        color:white;
+        font-size:15px;
+        display:flex;
+    }
+}
+.main26{
+    position:absolute;
+    top:5290px;
+    left:520px;
+    color:black;
+    font-size:24px;
+    background-color:rgb(183, 155, 15) ;
+    border-radius: 4px;
+    width:220px;
+    height:40px;
+}
+@media  screen and (max-width: 1024px){
+    .main26{
+        position:absolute;
+        top:265rem;
+        left:23rem;
+        color:black;
+        font-size:24px;
+        background-color:rgb(183, 155, 15) ;
+        border-radius: 4px;
+        width:220px;
+        height:40px;
+    }
+}
+@media  screen and (max-width: 520px){
+    .main26{
+        position:absolute;
+        top:113.5rem;
+        left:12.5rem;
+        color:black;
+        font-size:12.5px;
+        background-color:rgb(183, 155, 15) ;
+        border-radius: 3px;
+        width:80px;
+        height:20px;
+    }
+}
+.main26A{
+    display: flex;
+}
+@media  screen and (max-width: 520px){
+    .main27{
+        height:10rem;
+    }
+}
+.main28{
+    position:absolute;
+    display: flex;
+    top:399rem;
+    left:35rem;        
+}
+@media  screen and (max-width:1024px){
+    .main28{
+        position:absolute;
+        top:319rem;
+        left:33rem;        
+    }
+}
+@media  screen and (max-width:520px){
+    .main28{
+        position:absolute;
+        top:140rem;
+        left:14.4rem;
+        width:1rem;
+        display:flex;        
+    }
+}
+.main29{
+    position: absolute;
+    height:20rem;
+    width:500px;
+    top:395.8rem;
+    left:54.2rem;
+    display: flex;
+}
+@media  screen and (max-width: 1024px){
+    .main29{
+        position: absolute;
+        height:322px;
+        width:500px;
+        top:316.2rem;
+        left:640px;
+        display: flex;
+    }
+}
+@media  screen and (max-width: 520px){
+    .main29{
+        position: absolute;
+        height:9rem;
+        width:10rem;
+        top:138.6rem;
+        left:20.25rem;
+        display: flex;
+    }
+}
+.main30{
+    position:absolute;
+    top:405rem;
+    left:0.2rem;
+    color:white;
+    font-size:22px;
+    
+}
+@media  screen and (max-width: 1024px){
+    .main30{
+        position:absolute;
+        top:325rem;
+        left:2.5rem;
+        color:white;
+        font-size:18px;
+        
+    }
+}
+@media  screen and (max-width: 520px){
+    .main30{
+        position:absolute;
+        top:142.5rem;
+        left:4rem;
+        color:white;
+        font-size:6px;
+    }
+}
+.main31{
+    position:absolute;
+    top:414rem;
+    left:30rem;
+    font-size:24px;
+    color:rgb(247, 209, 20);
+}
+@media  screen and (max-width: 1024px){
+    .main31{
+        position:absolute;
+        top:333rem;
+        left:28rem;
+        font-size:24px;
+        color:rgb(247, 209, 20);
+    }
+}
+@media  screen and (max-width: 520px){
+    .main31{
+        position:absolute;
+        top:145.8rem;
+        left:11rem;
+        font-size:13px;
+        color:rgb(247, 209, 20);
+    }
+}
+@media  screen and (max-width:520px){
+    .main31A{
+        height: 24rem;
+    }
+}
+.main32{
+    position:absolute;
+    top:427rem;
+    right:5px;
+    left:30px;
+    display: flex;
+   
+}
+@media  screen and (max-width:1024px){
+    .main32{
+        position:absolute;
+        top:348rem;
+        left:-1rem;
+        display: flex;
+       
+    }
+}
+@media  screen and (max-width:520px){
+    .main32{
+        position:absolute;
+        top:152rem;
+        left:0.6rem;
+        display: flex;
+    }
+}
+.main33{
+    position:absolute;
+    top:428rem;
+    left:10rem;
+    color:rgb(212, 183, 16);
+    font-size:21px;
+    letter-spacing: 2px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+@media  screen and (max-width:1024px){
+    .main33{
+        position:absolute;
+        top:349rem;
+        left:2.5rem;
+        color:rgb(212, 183, 16);
+        font-size:21px;
+        letter-spacing: 2px;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+}
+@media  screen and (max-width:520px){
+    .main33{
+        position:absolute;
+        top:150.5rem;
+        left:2.8rem;
+        color:rgb(212, 183, 16);
+        font-size:8px;
+        letter-spacing: 1px;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    } 
+}
+.main34{
+    position:absolute;
+    top:433rem;
+    color:white;
+    font-size: 22px;
+    left:-2rem;
+    letter-spacing:1.5px ;
+}
+@media  screen and (max-width:1024px){
+    .main34{
+        position:absolute;
+        top:355rem;
+        color:white;
+        font-size: 17px;
+        left: -3em;
+        letter-spacing:2px ;
+    }
+}
+@media  screen and (max-width:520px){
+    .main34{
+        position:absolute;
+        top:153rem;
+        color:white;
+        font-size: 7.4px;
+        left:0.5em;
+        letter-spacing:0.5px ;
+    }
+}
+.main34A{
+    position:absolute;
+    top:446rem;
+    left:11.5rem;
+    color:rgb(212, 183, 16);
+    font-size:20px;
+    letter-spacing: 2px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+@media  screen and (max-width:1024px){
+    .main34A{
+        position:absolute;
+        top:366rem;
+        left:3rem;
+        color:rgb(212, 183, 16);
+        font-size:20px;
+        letter-spacing: 2px;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+}
+@media  screen and (max-width:520px){
+    .main34A{
+        position:absolute;
+        top:159.6rem;
+        left:4rem;
+        color:rgb(212, 183, 16);
+        font-size:6px;
+        letter-spacing: 1px;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+} 
+.main35{
+    position:absolute;
+    top:465rem;
+    left:500px;
+}
+@media  screen and (max-width: 1024px){
+    .main35{
+        position:absolute;
+        top:378rem;
+        left:24rem;
+    }
+}
+@media  screen and (max-width: 520px){
+    .main35{
+        position:absolute;
+        top:165rem;
+        left:13rem;
+        width:4rem;
+    }
+}
+.nav2{
+    position:absolute;
+    top:477rem;
+    left:230px;
+    gap:100px;
+    display: flex;
+    gap:80px;
+}
+@media  screen and (max-width: 1024px){
+    .nav2{
+        position:absolute;
+        top:391.5rem;
+        left:5rem;
+        display: flex;
+        gap:70px;
+        font-size:20px;
+        
+    }
+}
+@media  screen and (max-width: 520px){
+    .nav2{
+        position:absolute;
+        top:168rem;
+        left:4.5rem;
+        display: flex;
+        gap:35px;
+        font-size:6px;
+        
+    }
+}
+.main37{
+    position:absolute;
+    top:7740px;
+    left:720px;
+} 
+@media  screen and (max-width: 1024px){
+    .main37{
+        position:absolute;
+        top:400rem;
+        left:440px;
+    } 
+}
+@media  screen and (max-width: 520px){
+    .main37{
+        position:absolute;
+        top:170rem;
+        left:11.25rem;
+        width:1.4rem;
+    } 
+}
+.main38{
+    position:absolute;
+    top:7740px;
+    left:640px;
+} 
+@media  screen and (max-width: 1024px){
+    .main38{
+        position:absolute;
+        top:400rem;
+        left:32rem;
+    } 
+}
+@media  screen and (max-width: 520px){
+    .main38{
+        position:absolute;
+        top:170rem;
+        left:13.50rem;
+        width: 1.4rem;
+    } 
+}
+.main39{
+    position:absolute;
+    top:7740px;
+    left:560px;
+} 
+@media  screen and (max-width: 1024px){
+    .main39{
+        position:absolute;
+        top:400rem;
+        left:36.5rem;
+    } 
+}
+@media  screen and (max-width: 520px){
+    .main39{
+        position:absolute;
+        top:170rem;
+        left:15.75rem;
+        width:1.4rem;
+    } 
+}
+.main40{
+    position:absolute;
+    top:7740px;
+    left:30rem;
+} 
+@media  screen and (max-width: 1024px){
+    .main40{
+        position:absolute;
+        top:400rem;
+        left:23rem;
+    } 
+}
+@media  screen and (max-width: 520px){
+    .main40{
+        position:absolute;
+        top:170rem;
+        left:18rem;
+        width:1.4rem;
+    } 
+}
+/* END */
